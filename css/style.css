@@ -1,0 +1,160 @@
+/*
+  Author: Daniel Matute
+*/
+body {
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+footer {
+  background-color: #000000;
+  text-align: center;
+  color: #FFFFFF;
+  height: 160px;
+  padding-top: 50px;
+}
+
+footer h6 {
+  margin: 0;
+  font-size: 15px;
+  display: block;
+}
+
+footer a {
+  display: inline-block;
+  color: #FFFFFF;
+  margin: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.subtitle-wrapper {
+  padding: 0;
+}
+
+.subtitle {
+  border-bottom: 3px solid #000000;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.a-button {
+  background-color: #000000;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.menu {
+  display: block;
+  display:flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.menu li {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.menu li a {
+  color: #3C3C3C;
+}
+
+.languages {
+  display: block;
+  display:flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.languages li {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.languages li a {
+  color: #3C3C3C;
+}
+
+/* Index */
+
+#index_section_1 {
+  background-color: #F1F1F1;
+  padding: 35px;
+}
+
+#index_section_1 .index-profession {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0;
+}
+
+#index_section_1 img {
+  display: block;
+  width: 120px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+#index_section_1 .index-aboutme-text {
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  max-width: 748px;
+  margin: auto;
+}
+
+#index_section_2 .index-technology-column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+}
+
+#index_section_2 .index-technology-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#index_section_2 .index-technologies {
+  padding: 0;
+}
+
+#index_section_2 .index-technologies li {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+#index_section_2 .subtitle-wrapper {
+  padding-right: 40px;
+  text-align: right;
+}
+
+#index_section_3 {
+  background-color: #F1F1F1;
+  padding: 35px;
+}
+
+#index_section_3 .subtitle-wrapper {
+  text-align: left;
+  padding-left: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  #index_section_2 .index-technology-column {
+    width: 100%;
+    height: 200px;
+  }
+
+  .subtitle-wrapper {
+    text-align: center !important;
+    padding: 0 !important;
+  }
+}
