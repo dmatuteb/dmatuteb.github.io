@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>dmatuteb.github.io/es/categories/</loc>
+    <loc>https://dmatuteb.github.io/es/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dmatuteb.github.io/categories/"
+                href="https://dmatuteb.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="dmatuteb.github.io/es/categories/"
+                href="https://dmatuteb.github.io/es/categories/"
                 />
   </url><url>
-    <loc>dmatuteb.github.io/es/</loc>
+    <loc>https://dmatuteb.github.io/es/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dmatuteb.github.io/"
+                href="https://dmatuteb.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="dmatuteb.github.io/es/"
+                href="https://dmatuteb.github.io/es/"
                 />
   </url><url>
-    <loc>dmatuteb.github.io/es/tags/</loc>
+    <loc>https://dmatuteb.github.io/es/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="dmatuteb.github.io/tags/"
+                href="https://dmatuteb.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="dmatuteb.github.io/es/tags/"
+                href="https://dmatuteb.github.io/es/tags/"
                 />
   </url>
 </urlset>
