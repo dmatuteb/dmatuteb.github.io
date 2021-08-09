@@ -34,12 +34,12 @@ footer a {
 }
 
 .subtitle-wrapper {
-  padding: 0;
+  padding: 0px 0px 30px 0px;
+  margin: 0px;
 }
 
 .subtitle {
   border-bottom: 3px solid #000000;
-  padding: 10px;
   font-size: 30px;
   display: inline-block;
   text-align: center;
@@ -50,6 +50,7 @@ footer a {
   color: #FFFFFF;
   text-decoration: none;
   padding: 15px;
+  border-radius: 6px;
 }
 
 .menu {
@@ -72,7 +73,8 @@ footer a {
   display: block;
   display:flex;
   justify-content: center;
-  padding: 0;
+  padding: 0px 0px 35px 0px;
+  margin: 0px;
 }
 
 .languages li {
@@ -103,6 +105,7 @@ footer a {
   margin: auto;
   margin-bottom: 30px;
   border: 3px solid #000000;
+  border-radius: 6px 24px 6px 24px;
 }
 
 #index_section_1 .index-aboutme-text {
@@ -113,11 +116,17 @@ footer a {
   margin: auto;
 }
 
+#index_section_2 {
+  padding: 35px;
+}
+
 #index_section_2 .index-technology-column {
   float: left;
   width: 33.33%;
-  padding: 10px;
-  height: 300px;
+}
+
+#index_section_2 .index-technology-column h2 {
+  margin: 0px;
 }
 
 #index_section_2 .index-technology-row:after {
@@ -127,7 +136,8 @@ footer a {
 }
 
 #index_section_2 .index-technologies {
-  padding: 0;
+  padding: 0px;
+  margin: 30px 0px 0px 0px;
 }
 
 #index_section_2 .index-technologies li {
@@ -136,8 +146,7 @@ footer a {
 }
 
 #index_section_2 .subtitle-wrapper {
-  padding-right: 40px;
-  text-align: right;
+  text-align: center;
 }
 
 #index_section_3 {
@@ -146,14 +155,12 @@ footer a {
 }
 
 #index_section_3 .subtitle-wrapper {
-  text-align: left;
-  padding-left: 40px;
+  text-align: center;
 }
 
 @media screen and (max-width: 600px) {
   #index_section_2 .index-technology-column {
     width: 100%;
-    height: 200px;
   }
 
   .subtitle-wrapper {
