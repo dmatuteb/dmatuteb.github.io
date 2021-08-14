@@ -161,10 +161,10 @@ footer a {
 @media screen and (max-width: 600px) {
   #index_section_2 .index-technology-column {
     width: 100%;
+    margin-bottom: 30px;
   }
 
   .subtitle-wrapper {
     text-align: center !important;
-    padding: 0 !important;
   }
 }
