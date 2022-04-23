@@ -1,0 +1,118 @@
+#documents_section_1 {
+    width: 748px;
+    align-self: center;
+}
+
+#documents_section_1 .no-document {
+    padding: 50px;
+    background-color: #F1F1F1;
+    border-radius: 6px;
+}
+
+#documents_section_1 ul .no-document {
+    text-align: center;
+}
+
+#documents_section_1 ul .no-document i {
+    font-size: 3em;
+}
+
+#documents_section_1 .documents .documents-item {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+#documents_section_1 .documents .document {
+    display: flex;
+    border-radius: 6px 6px 0px 0px;
+    background-color: #f1f1f1;
+    color: #000000;
+    padding-left: 20px;
+}
+
+#documents_section_1 .documents .documents-item .document .icon {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#documents_section_1 .documents .documents-item .document i {
+    font-size: 1.33333em;
+    line-height: 70px;
+}
+
+#documents_section_1 .documents .documents-item .document .document-date {
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px 15px 20px auto;
+}
+
+#documents_section_1 .documents .documents-item .tags {
+    background-color: #cecece;
+    border-top: 1px solid #000000;
+    border-radius: 0px 0px 6px 6px;    
+    font-size: 15px;
+}
+
+#documents_section_1 .documents .documents-item .tags:last-child {
+    padding-right: 20px;
+}
+
+#documents_section_1 h2, ul {
+    padding: 0px 22px 22px 22px;
+}
+
+#documents_section_1 p {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 750px) {
+    #documents_section_1 {
+        width: 100%;
+    }
+
+    #documents_section_1 h2, ul {
+        padding: 0px 22px 22px 22px;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container .documents-container {
+    background-color: #F1F1F1;
+    text-align: center;
+    width: 748px;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 6px;
+}
+
+.container .documents-container h2 {
+    padding: 35px 22px 22px 22px;
+    margin-top: 0px;
+}
+
+.container .documents-container p img {
+    width: 400px;
+    padding: 0px 22px 22px 22px;
+}
+
+.container .documents-container .documents-container-content {
+    text-align: center;
+}
+
+@media screen and (max-width: 428px) {
+    .container {
+        display: flex;
+        justify-content: unset;
+    }
+
+    .container .documents-container p img {
+        width: 100%;
+        padding: 0px;
+    }
+}

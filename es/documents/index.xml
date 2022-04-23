@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documents on Daniel Matute&#39;s website</title>
+    <link>https://dmatuteb.github.io/es/documents/</link>
+    <description>Recent content in Documents on Daniel Matute&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 27 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dmatuteb.github.io/es/documents/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Certificado oracle - database design</title>
+      <link>https://dmatuteb.github.io/es/documents/oracle-academy-database-design/</link>
+      <pubDate>Sun, 27 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://dmatuteb.github.io/es/documents/oracle-academy-database-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Certificado oracle - database foundations</title>
+      <link>https://dmatuteb.github.io/es/documents/oracle-academy-database-foundations/</link>
+      <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dmatuteb.github.io/es/documents/oracle-academy-database-foundations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Título - Ciencias de la computación</title>
+      <link>https://dmatuteb.github.io/es/documents/titulo/</link>
+      <pubDate>Wed, 13 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dmatuteb.github.io/es/documents/titulo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
