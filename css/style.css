@@ -1,0 +1,338 @@
+:root {
+    --primary-color: #024474;
+    --primary-color-medium: #03548D;
+    --secondary-color: #FF9000;
+    --tertiary-color: #F5E9DC;
+    --tertiary-color-darker: #D1BEA9;
+
+    --light-gray: #F1F1F1;
+    --dark-gray: #C1C1C1;
+
+    --light-black: #323232;
+
+    --success-color-light: #eFFAF5;
+    --success-color-dark: #48C78E;
+    --success-color-darker: #08A45D;
+
+    --warning-color-light: #FFF9EB;
+    --warning-color-dark: #FFB70F;
+    --warning-color-darker: #A27100;
+
+    --error-color-light: #FFEBEF;
+    --error-color-dark: #FF6685;
+    --error-color-darker: #FE0B3B;
+
+    --section-spacing: 30px;
+    --radius: 2px;
+
+    --header-font: "Montserrat";
+    --description-font: "Lora";
+    --text-font: "Hind Madurai";
+
+    --default-font-size: 0.9935rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+}
+
+body {
+    margin: 0;
+    font-family: var(--text-font), serif;
+    font-size: var(--default-font-size);
+    color: var(--light-black);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--header-font), sans-serif;
+}
+
+i {
+    font-family: var(--description-font), sans-serif;
+}
+
+hr {
+    height: 1px;
+    background-color: var(--dark-gray);
+    border: none;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+}
+
+header nav ul li {
+    list-style: none;
+    font-weight: bold;
+}
+
+header nav ul li:first-child {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size:1.5rem;
+    font-family: var(--text-font), sans-serif;
+}
+
+header nav ul li:first-child span:first-child {
+    color: black;
+}
+
+header nav ul li:first-child span:last-child {
+    color: var(--primary-color);
+}
+
+header nav ul li:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li:last-child img,select {
+    margin: 5px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: var(--primary-color);
+}
+
+.profile .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile .container .profile__title {
+    color: white;
+    margin-top: 30px;
+    font-size: 2.4rem;
+}
+
+.profile .container .profile__image {
+    width: 140px;
+    height: 140px;
+    margin-top: 10px;
+    object-fit: cover;
+    border: 3px dotted white;
+    border-radius: 50%;
+}
+
+.profile .container .profile__about-me {
+    color: white;
+    padding: 0 30px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.profile .container .profile__download-cv {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.professional-experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: var(--section-spacing);
+}
+
+.professional-experience h1 {
+    margin-top: 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    background-color: var(--light-gray);
+    padding: 40px;
+    margin-top: var(--section-spacing);
+}
+
+.contact .container form {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.contact .container form input,textarea {
+    background-color: white;
+}
+
+.contact .message {
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: lighter;
+    padding: 40px;
+    border-bottom: 20px solid var(--primary-color-medium);
+}
+
+footer .container .footer__blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .footer__blocks .footer__block {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .container .footer__blocks .footer__block .footer__element {
+    margin-bottom: 5px;
+}
+
+footer .container .footer__blocks .footer__block:first-child {
+    text-align: left;
+}
+
+
+footer .container .footer__blocks .footer__block:last-child {
+    text-align: right;
+}
+
+footer .container .footer__blocks .footer__block a {
+    color: white;
+}
+
+@media only screen and (max-width: 780px) {
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin: 5px;
+    }
+
+    header nav ul li:first-child {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 1.8rem;
+    }
+
+    .contact .container form button {
+        width: 100%;
+    }
+
+    footer .container .footer__blocks {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .container .footer__blocks .footer__block .footer__element {
+        text-align: center;
+    }
+
+    footer .container .footer__blocks .footer__block:last-child {
+        margin-top: 40px;
+    }
+}
+
+.fa-linkedin-in, .fa-github-alt {
+    font-size: 1.4rem;
+    margin: 0 6px;
+}
+
+.fa-heart {
+    color: lightpink;
+}
+
+/*
+    UI Components
+*/
+
+input,textarea,button {
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+    font-family: var(--text-font), serif;
+    font-size: var(--default-font-size);
+    border-radius: var(--radius);
+}
+
+input {
+    width: 100%;
+    padding: 20px;
+}
+
+textarea {
+    resize: vertical;
+    height: 120px;
+    padding: 20px;
+}
+
+button {
+    width: fit-content;
+    padding: 20px 40px;
+    background-color: var(--light-black);
+    color: white;
+    font-family: var(--text-font), serif;
+    font-size: var(--default-font-size);
+    border-radius: var(--radius);
+    margin-top: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: var(--radius);
+}
+
+.link-button--white {
+    background-color: white;
+    color: var(--primary-color);
+}
+
+.message p {
+    margin: 0;
+    padding: 5px;
+}
+
+.message--success, .message--warning, .message--error {
+    display: block;
+    padding: 10px;
+}
+
+.message--hidden {
+    display: none;
+}
+
+.message--success {
+    background-color: var(--success-color-light);
+    color: var(--success-color-darker);
+    border: 2px solid var(--success-color-dark);
+}
+
+.message--warning {
+    background-color: var(--warning-color-light);
+    color: var(--warning-color-darker);
+    border: 2px solid var(--warning-color-dark);
+}
+
+.message--error {
+    background-color: var(--error-color-light);
+    color: var(--error-color-darker);
+    border: 2px solid var(--error-color-dark);
+}
