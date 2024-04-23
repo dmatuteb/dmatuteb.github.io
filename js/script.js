@@ -5,12 +5,19 @@ window.onload = () => {
     const emailStatusSuccess = document.getElementById('emailStatusSuccess')
     const emailStatusWarning = document.getElementById('emailStatusWarning')
     const emailStatusError = document.getElementById('emailStatusError')
+    const recaptchaWrapper = document.getElementById('recaptcha')
 
     let recaptcha = ''
 
     languagesSelect.addEventListener('change', (e) => {
         window.location.href = e.target.value
     })
+
+    if (window.innerWidth < 600) {
+        recaptchaWrapper.setAttribute('data-size', 'compact')
+    } else {
+        recaptchaWrapper.setAttribute('data-size', 'normal')
+    }
 
     grecaptcha.render('recaptcha', {
         'sitekey' : '6LfywsIpAAAAANfUmfg6vw4F0MCH-5HXzf2BvFdN',
