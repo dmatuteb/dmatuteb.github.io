@@ -175,6 +175,14 @@ header nav ul li:last-child img,select {
     margin-top: 15px;
 }
 
+.recaptcha-wrap {
+    max-width: 300px;
+}
+
+.recaptcha-wrap > div {
+    width: 100%;
+}
+
 footer {
     display: flex;
     justify-content: center;
