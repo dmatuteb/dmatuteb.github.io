@@ -149,6 +149,7 @@ header nav ul li:last-child img,select {
 }
 
 .professional-experience h1 {
+    text-align: center;
     margin-top: 0;
 }
 
